@@ -1,0 +1,62 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+!.env.production.example
+*.pem
+
+# VCS and local tooling
+.git
+.github
+.agents
+.claude
+.workbuddy-ai
+.editorconfig
+.dockerignore
+Dockerfile
+check-before-commit.sh
+hooks
+skills-lock.json
+progress.md
+resume
+scratch
+
+# Docs and planning (not needed to serve the app)
+README.md
+CLAUDE.md
+rebuild
+
+# Tests and their dependencies
+e2e
+test-results
+playwright.config.js
+lighthouserc.json
+package.json
+package-lock.json
+node_modules
+conftest.py
+.pytest_cache
+.ruff_cache
+htmlcov
+.coverage
+
+# Reference checkout of django-allauth, never imported
+django-allauth
+
+# Local state and generated output
+.venv
+__pycache__
+*.pyc
+db.sqlite3
+*.sqlite3
+staticfiles
+mediafiles
+media
+designfiles
+designs
+images
+*.log
+.DS_Store
+Thumbs.db
+.idea
+.vscode
